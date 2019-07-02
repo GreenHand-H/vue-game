@@ -1,0 +1,85 @@
+/* reset */
+html,body,div,p,ul,li,dl,dt,dd,em,i,span,a,img,input,h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0
+  }
+  a,img,input {
+    border: none;
+  }
+  body {
+    font: 14px/1.75  -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+  }
+  ul,li {
+    list-style: none
+  }
+  p {
+    font-weight: 300;
+  }
+  html {
+    font-size: calc(100vw / 750 * 100)
+  }
+  @media all and (orientation : landscape) {
+    html {
+      font-size: calc(100vw / 1334 * 100)
+    }
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  .flex {
+    display: flex;
+  }
+  .db {
+    display: block
+  }
+  .dib {
+    display: inline-block
+  }
+  .tid{
+    text-indent: -9999rem
+  }
+  .ofw {
+    overflow: hidden;
+  }
+  .clear {
+    *zoom: 1;
+  }
+  .clear:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /* foot */
+  .foot {
+    text-align: center;
+    font-size: .24rem;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+    padding: .12rem;
+  }
+  .foot a {
+    color: #fff;
+    text-decoration: none; 
+  }
+
+  /* 共用样式 */
+.spr-1 {
+    background: url('../icon1.png') no-repeat;
+    background-size: 15rem 9.3rem;
+}
+.spr-2 {
+  background: url("../icon2.png") no-repeat;
+  background-size: 7.1rem 11.8rem;
+}
+.text-hide{
+  text-indent: -9999rem;
+}
